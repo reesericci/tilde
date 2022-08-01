@@ -17,7 +17,14 @@
       "ca.tilde.hackclub.com" = {
           locations = {
             "/" = {
-              proxyPass = "http://localhost:6969";
+              proxyPass = "https://localhost:6969";
+            };
+          };
+      };
+      "dex.tilde.hackclub.com" = {
+          locations = {
+            "/" = {
+              proxyPass = "https://localhost:6970";
             };
           };
       };
